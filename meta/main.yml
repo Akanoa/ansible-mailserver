@@ -22,6 +22,7 @@ galaxy_info:
 
 dependencies:
     - ROCK5GmbH.mailserver-systembasics
-    - { role: 'git+https://github.com/Akanoa/ansible-postfix.git' }
+    - src: 'https://github.com/Akanoa/ansible-postfix.git'
+      name: noa.ansible-postfix
     - ROCK5GmbH.dovecot
     - ROCK5GmbH.milter
