@@ -25,5 +25,5 @@ dependencies:
     - src: 'https://github.com/Akanoa/ansible-postfix.git'
       name: noa.ansible-postfix
     - src: 'https://github.com/Akanoa/ansible-dovecot.git'
-      name: noa.ansible-postfix
+      name: noa.ansible-dovecot
     - ROCK5GmbH.milter
