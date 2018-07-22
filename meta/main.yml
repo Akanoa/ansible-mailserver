@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: Christoph Wolff, Norbert Ronecker
+  author: Christoph Wolff, Norbert Ronecker, (modified by Yannick Guern)
   description: This role installs a mailserver with Postfix, Dovecot, Spamassassin, Amavis, ClamAV and a database backend.
   company: NoaCorp
   license: MIT
@@ -24,5 +24,6 @@ dependencies:
     - ROCK5GmbH.mailserver-systembasics
     - src: 'https://github.com/Akanoa/ansible-postfix.git'
       name: noa.ansible-postfix
-    - ROCK5GmbH.dovecot
+    - src: 'https://github.com/Akanoa/ansible-dovecot.git'
+      name: noa.ansible-postfix
     - ROCK5GmbH.milter
